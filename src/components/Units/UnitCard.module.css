@@ -1,0 +1,66 @@
+.card
+{
+    font-family: Xolonium;
+    font-size: 1.25rem;
+    width: 17.5rem;
+    height: 10.5rem;
+    background-color: #f4f4f4;
+    border: 0.2rem solid #505050;
+
+    margin: 0.15rem;
+}
+
+.card:hover
+{
+    cursor:pointer;
+    background-color: #e4e4e4;
+    border: 0.2rem solid #404040;
+}
+
+.card_header
+{
+    height: 3rem;
+    margin: 0.2rem;
+}
+
+.card_info
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card_info div
+{
+    margin: 0.2rem;
+}
+
+.card_unit_image
+{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.card_unit_image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card_stats div
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.card_stats div img
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.price
+{
+    color: #bf0000;
+}

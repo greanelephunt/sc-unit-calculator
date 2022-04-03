@@ -1,0 +1,712 @@
+{
+  "tier1": {
+    "land": [
+      {
+        "name": "T1 Land Factory",
+        "massCost": 240,
+        "energyCost": 2100,
+        "hp": 4200,
+        "img": "/assets/images/cybran/T1 Land Factory.png"
+      },
+      {
+        "name": "T1 Mass Extractor",
+        "massCost": 36,
+        "energyCost": 360,
+        "hp": 800,
+        "img": "/assets/images/cybran/T1 mex.png"
+      },
+      {
+        "name": "Hydrocarbon Powerplant",
+        "massCost": 160,
+        "energyCost": 800,
+        "hp": 1600,
+        "img": "/assets/images/cybran/hydro.png"
+      },
+      {
+        "name": "T1 Power Generator",
+        "massCost": 75,
+        "energyCost": 750,
+        "hp": 600,
+        "img": "/assets/images/cybran/T1 gen.png"
+      },
+      {
+        "name": "Mass Storage",
+        "massCost": 200,
+        "energyCost": 1500,
+        "hp": 1600,
+        "img": "/assets/images/cybran/mstor.png"
+      },
+      {
+        "name": "Energy Storage",
+        "massCost": 120,
+        "energyCost": 2400,
+        "hp": 1200,
+        "img": "/assets/images/cybran/estor.png"
+      },
+      {
+        "name": "Wall",
+        "massCost": 2,
+        "energyCost": 10,
+        "hp": 4000,
+        "img": "/assets/images/cybran/wall.png"
+      },
+      {
+        "name": "T1 Point Defence",
+        "massCost": 250,
+        "energyCost": 2000,
+        "hp": 1300,
+        "img": "/assets/images/cybran/t1 pd.png"
+      },
+      {
+        "name": "T1 Anti-Air Turret",
+        "massCost": 200,
+        "energyCost": 2000,
+        "hp": 1200,
+        "img": "/assets/images/cybran/t1 aa.png"
+      },
+      {
+        "name": "T1 Radar",
+        "massCost": 80,
+        "energyCost": 720,
+        "hp": 10,
+        "img": "/assets/images/cybran/t1 radar.png"
+      },
+      {
+        "name": "T1 Engineer",
+        "massCost": 52,
+        "energyCost": 260,
+        "hp": 145,
+        "img": "/assets/images/cybran/t1 engie.png"
+      },
+      {
+        "name": "T1 Land Scout: Mole",
+        "massCost": 8,
+        "energyCost": 80,
+        "hp": 15,
+        "img": "/assets/images/cybran/t1 land scout.png"
+      },
+      {
+        "name": "T1 LAB: Hunter",
+        "massCost": 35,
+        "energyCost": 140,
+        "hp": 65,
+        "img": "/assets/images/cybran/t1 lab.png"
+      },
+      {
+        "name": "T1 Assault Bot: Mantis",
+        "massCost": 52,
+        "energyCost": 273,
+        "hp": 270,
+        "img": "/assets/images/cybran/t1 assault bot.png"
+      },
+      {
+        "name": "T1 Mobile Anti-Air Gun: Sky Slammer",
+        "massCost": 28,
+        "energyCost": 140,
+        "hp": 130,
+        "img": "/assets/images/cybran/t1 maa.png"
+      },
+      {
+        "name": "T1 Mobile Light Artillery: Medusa",
+        "massCost": 48,
+        "energyCost": 240,
+        "hp": 140,
+        "img": "/assets/images/cybran/T1 mla.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "T1 Air Factory",
+        "massCost": 210,
+        "energyCost": 2400,
+        "hp": 4200,
+        "img": "/assets/images/cybran/t1 Air Factory.png"
+      },
+      {
+        "name": "T1 Air Scout: Flying Eyes",
+        "massCost": 40,
+        "energyCost": 1600,
+        "hp": 26,
+        "img": "/assets/images/cybran/t1 air scout.png"
+      },
+      {
+        "name": "T1 Interceptor: Prowler",
+        "massCost": 50,
+        "energyCost": 2250,
+        "hp": 280,
+        "img": "/assets/images/cybran/t1 interceptor.png"
+      },
+      {
+        "name": "T1 Attack Bomber: Zeus",
+        "massCost": 100,
+        "energyCost": 2250,
+        "hp": 200,
+        "img": "/assets/images/cybran/t1 attack bomber.png"
+      },
+      {
+        "name": "T1 Light Gunship: Jester",
+        "massCost": 200,
+        "energyCost": 5000,
+        "hp": 525,
+        "img": "/assets/images/cybran/t1 gunship.png"
+      },
+      {
+        "name": "T1 Transport: Skyhook",
+        "massCost": 120,
+        "energyCost": 4800,
+        "hp": 500,
+        "img": "/assets/images/cybran/t1 air transport.png"
+      }
+    ],
+    "naval": [
+      {
+        "name": "T1 Naval Factory",
+        "massCost": 300,
+        "energyCost": 1500,
+        "hp": 4200,
+        "img": "/assets/images/cybran/t1 naval factory.png"
+      },
+      {
+        "name": "T1 Torpedo Launcher",
+        "massCost": 450,
+        "energyCost": 3600,
+        "hp": 1600,
+        "img": "/assets/images/cybran/t1 tl.png"
+      },
+      {
+        "name": "T1 Sonar",
+        "massCost": 64,
+        "energyCost": 544,
+        "hp": 400,
+        "img": "/assets/images/cybran/t1 sonar.png"
+      },
+      {
+        "name": "T1 Submarine: Sliver",
+        "massCost": 400,
+        "energyCost": 3200,
+        "hp": 525,
+        "img": "/assets/images/cybran/t1 submarine.png"
+      },
+      {
+        "name": "T1 Frigate: Trident Class",
+        "massCost": 270,
+        "energyCost": 2700,
+        "hp": 1900,
+        "img": "/assets/images/cybran/t1 frigate.png"
+      }
+    ]
+  },
+  "tier2": {
+    "land": [
+      {
+        "name": "T2 Land Factory",
+        "massCost": 800,
+        "energyCost": 7200,
+        "hp": 7800,
+        "img": "/assets/images/cybran/t2 land factory.png"
+      },
+      {
+        "name": "T2 Mass Extractor",
+        "massCost": 900,
+        "energyCost": 5400,
+        "hp": 3000,
+        "img": "/assets/images/cybran/t2 mex.png"
+      },
+      {
+        "name": "T2 Power Generator",
+        "massCost": 1200,
+        "energyCost": 12000,
+        "hp": 2160,
+        "img": "/assets/images/cybran/t2 gen.png"
+      },
+      {
+        "name": "T2 Mass Fabricator",
+        "massCost": 100,
+        "energyCost": 4000,
+        "hp": 360,
+        "img": "/assets/images/cybran/t2 fab.png"
+      },
+      {
+        "name": "T2 Art. Installation: Gunther",
+        "massCost": 2240,
+        "energyCost": 16000,
+        "hp": 3150,
+        "img": "/assets/images/cybran/t2 arti.png"
+      },
+      {
+        "name": "T2 Tactical Missile Launcher: TML-4",
+        "massCost": 850,
+        "energyCost": 5100,
+        "hp": 1500,
+        "img": "/assets/images/cybran/t2 tml.png"
+      },
+      {
+        "name": "T2 Point Defence: Cerberus",
+        "massCost": 480,
+        "energyCost": 3400,
+        "hp": 2000,
+        "img": "/assets/images/cybran/t2 pd.png"
+      },
+      {
+        "name": "T2 AA Flak Artillery: Burst Master",
+        "massCost": 560,
+        "energyCost": 5600,
+        "hp": 3400,
+        "img": "/assets/images/cybran/t2 aa.png"
+      },
+      {
+        "name": "T2 Tactical Missile Defence: Zapper",
+        "massCost": 280,
+        "energyCost": 3200,
+        "hp": 950,
+        "img": "/assets/images/cybran/t2 tmd.png"
+      },
+      {
+        "name": "T2 Shield Generator: ED1",
+        "massCost": 160,
+        "energyCost": 2000,
+        "hp": "500/4k",
+        "img": "/assets/images/cybran/t2 shield1.png"
+      },
+      {
+        "name": "T2 Shield Generator: ED2",
+        "massCost": 300,
+        "energyCost": 3000,
+        "hp": "500/7k",
+        "img": "/assets/images/cybran/t2 shield2.png"
+      },
+      {
+        "name": "T2 Shield Generator: ED3",
+        "massCost": 800,
+        "energyCost": 12000,
+        "hp": "500/10k",
+        "img": "/assets/images/cybran/t2 shield3.png"
+      },
+      {
+        "name": "T2 Shield Generator: ED4",
+        "massCost": 1200,
+        "energyCost": 24000,
+        "hp": "500/13k",
+        "img": "/assets/images/cybran/t2 shield4.png"
+      },
+      {
+        "name": "T2 Shield Generator: ED5",
+        "massCost": 2400,
+        "energyCost": 40000,
+        "hp": "500/14k",
+        "img": "/assets/images/cybran/t2 shield5.png"
+      },
+      {
+        "name": "T2 Radar",
+        "massCost": 180,
+        "energyCost": 3600,
+        "hp": 50,
+        "img": "/assets/images/cybran/t2 radar.png"
+      },
+      {
+        "name": "T2 Stealth Field Generator",
+        "massCost": 320,
+        "energyCost": 4000,
+        "hp": 150,
+        "img": "/assets/images/cybran/t2 stealth field.png"
+      },
+      {
+        "name": "T2 Engineering Station: Hive I",
+        "massCost": 450,
+        "energyCost": 2250,
+        "hp": 500,
+        "img": "/assets/images/cybran/t2 hive1.png"
+      },
+      {
+        "name": "T2 Engineering Station: Hive II",
+        "massCost": 240,
+        "energyCost": 1600,
+        "hp": 1250,
+        "img": "/assets/images/cybran/t2 hive2.png"
+      },
+      {
+        "name": "T2 Engineering Station: Hive III",
+        "massCost": 240,
+        "energyCost": 1600,
+        "hp": 2750,
+        "img": "/assets/images/cybran/t2 hive3.png"
+      },
+      {
+        "name": "T2 Engineer",
+        "massCost": 160,
+        "energyCost": 840,
+        "hp": 710,
+        "img": "/assets/images/cybran/t2 engie.png"
+      },
+      {
+        "name": "T2 Rocket Bot: Hoplite",
+        "massCost": 200,
+        "energyCost": 1000,
+        "hp": 650,
+        "img": "/assets/images/cybran/t2 rocket bot.png"
+      },
+      {
+        "name": "T2 Heavy Tank: Rhino",
+        "massCost": 198,
+        "energyCost": 990,
+        "hp": 775,
+        "img": "/assets/images/cybran/t2 heavy tank.png"
+      },
+      {
+        "name": "T2 Amphibious Tank: Wagner",
+        "massCost": 297,
+        "energyCost": 1980,
+        "hp": 1200,
+        "img": "/assets/images/cybran/t2 amphibious tank.png"
+      },
+      {
+        "name": "T2 Mobile AA Flak: Banger",
+        "massCost": 160,
+        "energyCost": 800,
+        "hp": 1000,
+        "img": "/assets/images/cybran/t2 maa.png"
+      },
+      {
+        "name": "T2 Mobile Missile Launcher: Viper",
+        "massCost": 200,
+        "energyCost": 1500,
+        "hp": 700,
+        "img": "/assets/images/cybran/t2 mml.png"
+      },
+      {
+        "name": "T2 Mobile Stealth Field System",
+        "massCost": 80,
+        "energyCost": 800,
+        "hp": 350,
+        "img": "/assets/images/cybran/t2 mobile stealth field.png"
+      },
+      {
+        "name": "T2 Mobile Bomb: Fire Beetle",
+        "massCost": 300,
+        "energyCost": 1800,
+        "hp": 300,
+        "img": "/assets/images/cybran/t2 mobile bomb.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "T2 Air Factory",
+        "massCost": 630,
+        "energyCost": 11700,
+        "hp": 7800,
+        "img": "/assets/images/cybran/t2 air factory.png"
+      },
+      {
+        "name": "T2 Fighter/Bomber: Corsair",
+        "massCost": 420,
+        "energyCost": 8400,
+        "hp": 1100,
+        "img": "/assets/images/cybran/t2 fighter bomber.png"
+      },
+      {
+        "name": "T2 Torpedo Bomber: Cormorant",
+        "massCost": 240,
+        "energyCost": 4800,
+        "hp": 800,
+        "img": "/assets/images/cybran/t2 torpedo bomber.png"
+      },
+      {
+        "name": "T2 Gunship: Renegade",
+        "massCost": 300,
+        "energyCost": 6000,
+        "hp": 1040,
+        "img": "/assets/images/cybran/t2 gunship.png"
+      },
+      {
+        "name": "T2 Transport: Dragon Fly",
+        "massCost": 300,
+        "energyCost": 12000,
+        "hp": 1525,
+        "img": "/assets/images/cybran/t2 air transport.png"
+      }
+    ],
+    "naval": [
+      {
+        "name": "T2 Naval Factory",
+        "massCost": 1170,
+        "energyCost": 5400,
+        "hp": 15000,
+        "img": "/assets/images/cybran/t2 naval factory.png"
+      },
+      {
+        "name": "T2 Torpedo Launcher",
+        "massCost": 1080,
+        "energyCost": 9000,
+        "hp": 5800,
+        "img": "/assets/images/cybran/t2 tl.png"
+      },
+      {
+        "name": "T2 Sonar",
+        "massCost": 120,
+        "energyCost": 3600,
+        "hp": 625,
+        "img": "/assets/images/cybran/t2 sonar.png"
+      },
+      {
+        "name": "T2 Submarine Killer: Barracuda",
+        "massCost": 1100,
+        "energyCost": 8800,
+        "hp": 1430,
+        "img": "/assets/images/cybran/t2 submarine.png"
+      },
+      {
+        "name": "T2 Destroyer: Salem Class",
+        "massCost": 2250,
+        "energyCost": 15000,
+        "hp": 6050,
+        "img": "/assets/images/cybran/t2 destroyer.png"
+      },
+      {
+        "name": "T2 Cruiser: Siren Class",
+        "massCost": 2000,
+        "energyCost": 18000,
+        "hp": 3000,
+        "img": "/assets/images/cybran/t2 cruiser.png"
+      },
+      {
+        "name": "T2 Counter Intelligence Boat",
+        "massCost": 600,
+        "energyCost": 6000,
+        "hp": 1500,
+        "img": "/assets/images/cybran/t2 ci boat.png"
+      }
+    ]
+  },
+  "tier3": {
+    "land": [
+      {
+        "name": "T3 Land Factory",
+        "massCost": 3150,
+        "energyCost": 28350,
+        "hp": 19000,
+        "img": "/assets/images/cybran/t3 land factory.png"
+      },
+      {
+        "name": "T3 Quantum Gate",
+        "massCost": 3000,
+        "energyCost": 30000,
+        "hp": 10000,
+        "img": "/assets/images/cybran/t3 quantum gate.png"
+      },
+      {
+        "name": "T3 Mass Extractor",
+        "massCost": 4600,
+        "energyCost": 31625,
+        "hp": 8400,
+        "img": "/assets/images/cybran/t3 mex.png"
+      },
+      {
+        "name": "T3 Power Generator",
+        "massCost": 3240,
+        "energyCost": 57600,
+        "hp": 9720,
+        "img": "/assets/images/cybran/t3 gen.png"
+      },
+      {
+        "name": "T3 Mass Fabricator",
+        "massCost": 3000,
+        "energyCost": 65000,
+        "hp": 6000,
+        "img": "/assets/images/cybran/t3 fab.png"
+      },
+      {
+        "name": "T3 Heavy Art. Installation: Disruptor",
+        "massCost": 87000,
+        "energyCost": 870000,
+        "hp": 10500,
+        "img": "/assets/images/cybran/t3 arti.png"
+      },
+      {
+        "name": "T3 Strategic Missile Launcher: Liberator",
+        "massCost": 15000,
+        "energyCost": 210000,
+        "hp": 4000,
+        "img": "/assets/images/cybran/t3 sml.png"
+      },
+      {
+        "name": "T3 AA SAM: Myrmidon",
+        "massCost": 1400,
+        "energyCost": 12000,
+        "hp": 10500,
+        "img": "/assets/images/cybran/t3 aa.png"
+      },
+      {
+        "name": "T3 SMD: Guardian",
+        "massCost": 7500,
+        "energyCost": 105000,
+        "hp": 3800,
+        "img": "/assets/images/cybran/t3 smd.png"
+      },
+      {
+        "name": "T3 Omni Sensor Array",
+        "massCost": 2400,
+        "energyCost": 30000,
+        "hp": 100,
+        "img": "/assets/images/cybran/t3 radar.png"
+      },
+      {
+        "name": "T3 Perimeter Monitoring System",
+        "massCost": 4800,
+        "energyCost": 60000,
+        "hp": 500,
+        "img": "/assets/images/cybran/t3 perimeter.png"
+      },
+      {
+        "name": "T3 Engineer",
+        "massCost": 490,
+        "energyCost": 3150,
+        "hp": 1425,
+        "img": "/assets/images/cybran/t3 engie.png"
+      },
+      {
+        "name": "T3 Siege Assault Bot: Loyalist",
+        "massCost": 480,
+        "energyCost": 5400,
+        "hp": 3100,
+        "img": "/assets/images/cybran/t3 loyalist.png"
+      },
+      {
+        "name": "T3 Armored Assault Bot: Brick",
+        "massCost": 1280,
+        "energyCost": 14000,
+        "hp": 9000,
+        "img": "/assets/images/cybran/t3 brick.png"
+      },
+      {
+        "name": "T3 Mobile Heavy Artillery: Trebuchet",
+        "massCost": 800,
+        "energyCost": 8000,
+        "hp": 850,
+        "img": "/assets/images/cybran/t3 mha.png"
+      },
+      {
+        "name": "T3 Support Armored Command Unit",
+        "massCost": 9000,
+        "energyCost": 120000,
+        "hp": 38000,
+        "img": "/assets/images/cybran/t3 sacu.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "T3 Air Factory",
+        "massCost": 2520,
+        "energyCost": 46200,
+        "hp": 19000,
+        "img": "/assets/images/cybran/t3 air factory.png"
+      },
+      {
+        "name": "T3 Spy Plane: Spook",
+        "massCost": 195,
+        "energyCost": 5000,
+        "hp": 700,
+        "img": "/assets/images/cybran/t3 spy plane.png"
+      },
+      {
+        "name": "T3 Air Superiority Fighter: Gemini",
+        "massCost": 400,
+        "energyCost": 20000,
+        "hp": 2450,
+        "img": "/assets/images/cybran/t3 fighter.png"
+      },
+      {
+        "name": "T3 Strategic Bomber: Revenant",
+        "massCost": 2100,
+        "energyCost": 70000,
+        "hp": 3700,
+        "img": "/assets/images/cybran/t3 bomber.png"
+      },
+      {
+        "name": "T3 Heavy Gunship: Wailer",
+        "massCost": 1680,
+        "energyCost": 35000,
+        "hp": 5900,
+        "img": "/assets/images/cybran/t3 gunship.png"
+      }
+    ],
+    "naval": [
+      {
+        "name": "T3 Naval Factory",
+        "massCost": 5400,
+        "energyCost": 23400,
+        "hp": 34000,
+        "img": "/assets/images/cybran/t3 naval factory.png"
+      },
+      {
+        "name": "T3 Sonar Platform",
+        "massCost": 480,
+        "energyCost": 14400,
+        "hp": 850,
+        "img": "/assets/images/cybran/t3 sonar.png"
+      },
+      {
+        "name": "T3 Torpedo Ambushing System",
+        "massCost": 3000,
+        "energyCost": 25000,
+        "hp": 11000,
+        "img": "/assets/images/cybran/t3 tl.png"
+      },
+      {
+        "name": "T3 Strategic Missile Submarine: Plan B",
+        "massCost": 11000,
+        "energyCost": 66000,
+        "hp": 3500,
+        "img": "/assets/images/cybran/t3 submarine.png"
+      },
+      {
+        "name": "T3 Battleship: Galaxy Class",
+        "massCost": 11250,
+        "energyCost": 75000,
+        "hp": 47000,
+        "img": "/assets/images/cybran/t3 battleship.png"
+      },
+      {
+        "name": "T3 Aircraft Carrier: Command Class",
+        "massCost": 3600,
+        "energyCost": 36000,
+        "hp": 20000,
+        "img": "/assets/images/cybran/t3 aircraft carrier.png"
+      }
+    ]
+  },
+  "experimental": {
+    "land": [
+      {
+        "name": "Exp. Artillery: Scathis",
+        "massCost": "299.7k",
+        "energyCost": "5994k",
+        "hp": 17500,
+        "img": "/assets/images/cybran/scathis.png"
+      },
+      {
+        "name": "Exp. Spiderbot: Monkeylord",
+        "massCost": 19000,
+        "energyCost": 260000,
+        "hp": 45000,
+        "img": "/assets/images/cybran/monkeylord.png"
+      },
+      {
+        "name": "Exp. Megabot: Megalith",
+        "massCost": 33750,
+        "energyCost": 393750,
+        "hp": 110000,
+        "img": "/assets/images/cybran/megalith.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "Exp. Gunship: Soul Ripper",
+        "massCost": 40000,
+        "energyCost": 650000,
+        "hp": 90000,
+        "img": "/assets/images/cybran/soul ripper.png"
+      }
+    ],
+    "naval": []
+  }
+}

@@ -1,0 +1,9 @@
+.faction:hover {
+  cursor: pointer;
+}
+
+.faction img {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 1.5rem 0rem 1.5rem;
+}

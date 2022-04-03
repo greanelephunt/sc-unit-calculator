@@ -1,0 +1,684 @@
+{
+  "tier1": {
+    "land": [
+      {
+        "name": "T1 Land Factory",
+        "massCost": 240,
+        "energyCost": 2100,
+        "hp": 4800,
+        "img": "/assets/images/UEF/T1 Land Factory.png"
+      },
+      {
+        "name": "T1 Mass Extractor",
+        "massCost": 36,
+        "energyCost": 360,
+        "hp": 800,
+        "img": "/assets/images/UEF/T1 mex.png"
+      },
+      {
+        "name": "Hydrocarbon Powerplant",
+        "massCost": 160,
+        "energyCost": 800,
+        "hp": 1600,
+        "img": "/assets/images/UEF/hydro.png"
+      },
+      {
+        "name": "T1 Power Generator",
+        "massCost": 75,
+        "energyCost": 750,
+        "hp": 600,
+        "img": "/assets/images/UEF/T1 gen.png"
+      },
+      {
+        "name": "Mass Storage",
+        "massCost": 200,
+        "energyCost": 1500,
+        "hp": 1600,
+        "img": "/assets/images/UEF/mstor.png"
+      },
+      {
+        "name": "Energy Storage",
+        "massCost": 120,
+        "energyCost": 2400,
+        "hp": 1200,
+        "img": "/assets/images/UEF/estor.png"
+      },
+      {
+        "name": "Wall",
+        "massCost": 2,
+        "energyCost": 10,
+        "hp": 4000,
+        "img": "/assets/images/UEF/wall.png"
+      },
+      {
+        "name": "T1 Point Defence",
+        "massCost": 250,
+        "energyCost": 2000,
+        "hp": 1300,
+        "img": "/assets/images/UEF/t1 pd.png"
+      },
+      {
+        "name": "T1 Anti-Air Turret",
+        "massCost": 200,
+        "energyCost": 2000,
+        "hp": 1200,
+        "img": "/assets/images/UEF/t1 aa.png"
+      },
+      {
+        "name": "T1 Radar",
+        "massCost": 80,
+        "energyCost": 720,
+        "hp": 10,
+        "img": "/assets/images/UEF/t1 radar.png"
+      },
+      {
+        "name": "T1 Engineer",
+        "massCost": 52,
+        "energyCost": 260,
+        "hp": 150,
+        "img": "/assets/images/UEF/t1 engie.png"
+      },
+      {
+        "name": "T1 Land Scout: Snoop",
+        "massCost": 12,
+        "energyCost": 80,
+        "hp": 29,
+        "img": "/assets/images/UEF/t1 land scout.png"
+      },
+      {
+        "name": "T1 LAB: Mech Marine",
+        "massCost": 35,
+        "energyCost": 140,
+        "hp": 75,
+        "img": "/assets/images/UEF/t1 lab.png"
+      },
+      {
+        "name": "T1 Medium Tank: MA12 Striker",
+        "massCost": 56,
+        "energyCost": 266,
+        "hp": 300,
+        "img": "/assets/images/UEF/t1 medium tank.png"
+      },
+      {
+        "name": "T1 Mobile Anti-Air Gun: Archer",
+        "massCost": 28,
+        "energyCost": 140,
+        "hp": 200,
+        "img": "/assets/images/UEF/t1 maa.png"
+      },
+      {
+        "name": "T1 Mobile Light Artillery: Lobo",
+        "massCost": 36,
+        "energyCost": 180,
+        "hp": 205,
+        "img": "/assets/images/UEF/T1 arti.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "T1 Air Factory",
+        "massCost": 210,
+        "energyCost": 2400,
+        "hp": 4800,
+        "img": "/assets/images/UEF/t1 Air Factory.png"
+      },
+      {
+        "name": "T1 Air Scout: Hummingbird",
+        "massCost": 40,
+        "energyCost": 1600,
+        "hp": 35,
+        "img": "/assets/images/UEF/t1 air scout.png"
+      },
+      {
+        "name": "T1 Interceptor: Cyclone",
+        "massCost": 50,
+        "energyCost": 2250,
+        "hp": 295,
+        "img": "/assets/images/UEF/t1 interceptor.png"
+      },
+      {
+        "name": "T1 Attack Bomber: Scorcher",
+        "massCost": 100,
+        "energyCost": 2250,
+        "hp": 215,
+        "img": "/assets/images/UEF/t1 attack bomber.png"
+      },
+      {
+        "name": "T1 Transport: C-6 Courier",
+        "massCost": 120,
+        "energyCost": 4800,
+        "hp": 500,
+        "img": "/assets/images/UEF/t1 air transport.png"
+      }
+    ],
+    "naval": [
+      {
+        "name": "T1 Naval Factory",
+        "massCost": 300,
+        "energyCost": 1500,
+        "hp": 4800,
+        "img": "/assets/images/UEF/t1 naval factory.png"
+      },
+      {
+        "name": "T1 Torpedo Launcher",
+        "massCost": 450,
+        "energyCost": 3600,
+        "hp": 1700,
+        "img": "/assets/images/UEF/t1 tl.png"
+      },
+      {
+        "name": "T1 Sonar",
+        "massCost": 64,
+        "energyCost": 544,
+        "hp": 600,
+        "img": "/assets/images/UEF/t1 sonar.png"
+      },
+      {
+        "name": "T1 Submarine: Tigershark",
+        "massCost": 400,
+        "energyCost": 3200,
+        "hp": 600,
+        "img": "/assets/images/UEF/t1 submarine.png"
+      },
+      {
+        "name": "T1 Frigate: Thunderhead Class",
+        "massCost": 280,
+        "energyCost": 2800,
+        "hp": 2120,
+        "img": "/assets/images/UEF/t1 frigate.png"
+      }
+    ]
+  },
+  "tier2": {
+    "land": [
+      {
+        "name": "T2 Land Factory",
+        "massCost": 800,
+        "energyCost": 7200,
+        "hp": 9000,
+        "img": "/assets/images/UEF/t2 land factory.png"
+      },
+      {
+        "name": "T2 Mass Extractor",
+        "massCost": 900,
+        "energyCost": 5400,
+        "hp": 3000,
+        "img": "/assets/images/UEF/t2 mex.png"
+      },
+      {
+        "name": "T2 Power Generator",
+        "massCost": 1200,
+        "energyCost": 12000,
+        "hp": 2160,
+        "img": "/assets/images/UEF/t2 gen.png"
+      },
+      {
+        "name": "T2 Mass Fabricator",
+        "massCost": 100,
+        "energyCost": 4000,
+        "hp": 360,
+        "img": "/assets/images/UEF/t2 fab.png"
+      },
+      {
+        "name": "T2 Art. Installation: Kink Hammer",
+        "massCost": 2520,
+        "energyCost": 18000,
+        "hp": 3600,
+        "img": "/assets/images/UEF/t2 arti.png"
+      },
+      {
+        "name": "T2 Tactical Missile Launcher: Aloha",
+        "massCost": 800,
+        "energyCost": 4000,
+        "hp": 1500,
+        "img": "/assets/images/UEF/t2 tml.png"
+      },
+      {
+        "name": "T2 Point Defence: Triad",
+        "massCost": 540,
+        "energyCost": 3600,
+        "hp": 2250,
+        "img": "/assets/images/UEF/t2 pd.png"
+      },
+      {
+        "name": "T2 AA Flak Artillery: Air Cleaner",
+        "massCost": 560,
+        "energyCost": 5600,
+        "hp": 3700,
+        "img": "/assets/images/UEF/t2 aa.png"
+      },
+      {
+        "name": "T2 Tactical Missile Defence: Buzzkill",
+        "massCost": 280,
+        "energyCost": 3200,
+        "hp": 1000,
+        "img": "/assets/images/UEF/t2 tmd.png"
+      },
+      {
+        "name": "T2 Shield Generator",
+        "massCost": 600,
+        "energyCost": 6000,
+        "hp": "250/9k",
+        "img": "/assets/images/UEF/t2 shield.png"
+      },
+      {
+        "name": "T2 Radar",
+        "massCost": 180,
+        "energyCost": 3600,
+        "hp": 50,
+        "img": "/assets/images/UEF/t2 radar.png"
+      },
+      {
+        "name": "T2 Stealth Field Generator",
+        "massCost": 360,
+        "energyCost": 5400,
+        "hp": 225,
+        "img": "/assets/images/UEF/t2 stealth field.png"
+      },
+      {
+        "name": "T2 Engineering Station: Kennel",
+        "massCost": 550,
+        "energyCost": 2750,
+        "hp": 1000,
+        "img": "/assets/images/UEF/t2 kennel.png"
+      },
+      {
+        "name": "T2 Engineer",
+        "massCost": 160,
+        "energyCost": 840,
+        "hp": 730,
+        "img": "/assets/images/UEF/t2 engie.png"
+      },
+      {
+        "name": "T2 Field Engineer: Sparky",
+        "massCost": 225,
+        "energyCost": 1000,
+        "hp": 1040,
+        "img": "/assets/images/UEF/t2 field engie.png"
+      },
+      {
+        "name": "T2 Gatling Bot: Mongoose",
+        "massCost": 200,
+        "energyCost": 1000,
+        "hp": 900,
+        "img": "/assets/images/UEF/t2 gatling bot.png"
+      },
+      {
+        "name": "T2 Heavy Tank: Pillar",
+        "massCost": 198,
+        "energyCost": 990,
+        "hp": 1200,
+        "img": "/assets/images/UEF/t2 heavy tank.png"
+      },
+      {
+        "name": "T2 Amphibious Tank: Riptide",
+        "massCost": 363,
+        "energyCost": 1980,
+        "hp": 1700,
+        "img": "/assets/images/UEF/t2 amphibious tank.png"
+      },
+      {
+        "name": "T2 Mobile AA Flak: Sky Boxer",
+        "massCost": 160,
+        "energyCost": 800,
+        "hp": 1000,
+        "img": "/assets/images/UEF/t2 maa.png"
+      },
+      {
+        "name": "T2 Mobile Missile Launcher: Flapjack",
+        "massCost": 200,
+        "energyCost": 1500,
+        "hp": 825,
+        "img": "/assets/images/UEF/t2 mml.png"
+      },
+      {
+        "name": "T2 Mobile Shield Generator",
+        "massCost": 120,
+        "energyCost": 900,
+        "hp": "150/4k",
+        "img": "/assets/images/UEF/t2 mobile shield.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "T2 Air Factory",
+        "massCost": 630,
+        "energyCost": 11700,
+        "hp": 9000,
+        "img": "/assets/images/UEF/t2 air factory.png"
+      },
+      {
+        "name": "T2 Fighter/Bomber: Janus",
+        "massCost": 420,
+        "energyCost": 8400,
+        "hp": 1200,
+        "img": "/assets/images/UEF/t2 janus.png"
+      },
+      {
+        "name": "T2 Torpedo Bomber: Stork",
+        "massCost": 240,
+        "energyCost": 4800,
+        "hp": 860,
+        "img": "/assets/images/UEF/t2 torpedo bomber.png"
+      },
+      {
+        "name": "T2 Gunship: Stinger",
+        "massCost": 300,
+        "energyCost": 6000,
+        "hp": 1100,
+        "img": "/assets/images/UEF/t2 gunship.png"
+      },
+      {
+        "name": "T2 Transport: C14 Star Lifter",
+        "massCost": 300,
+        "energyCost": 12000,
+        "hp": 1675,
+        "img": "/assets/images/UEF/t2 air transport.png"
+      }
+    ],
+    "naval": [
+      {
+        "name": "T2 Naval Factory",
+        "massCost": 1170,
+        "energyCost": 5400,
+        "hp": 18000,
+        "img": "/assets/images/UEF/t2 naval factory.png"
+      },
+      {
+        "name": "T2 Torpedo Launcher",
+        "massCost": 1080,
+        "energyCost": 9000,
+        "hp": 6400,
+        "img": "/assets/images/UEF/t2 tl.png"
+      },
+      {
+        "name": "T2 Sonar",
+        "massCost": 120,
+        "energyCost": 3600,
+        "hp": 1400,
+        "img": "/assets/images/UEF/t2 sonar.png"
+      },
+      {
+        "name": "T2 Torpedo Boat: Cooper",
+        "massCost": 900,
+        "energyCost": 7200,
+        "hp": 1750,
+        "img": "/assets/images/UEF/t2 torpedo boat.png"
+      },
+      {
+        "name": "T2 Destroyer: Valiant Class",
+        "massCost": 2250,
+        "energyCost": 15000,
+        "hp": 7200,
+        "img": "/assets/images/UEF/t2 destroyer.png"
+      },
+      {
+        "name": "T2 Cruiser: Governor Class",
+        "massCost": 2000,
+        "energyCost": 18000,
+        "hp": 2500,
+        "img": "/assets/images/UEF/t2 cruiser.png"
+      },
+      {
+        "name": "T2 Shield Boat: Bulwark",
+        "massCost": 1040,
+        "energyCost": 10400,
+        "hp": "750/8k",
+        "img": "/assets/images/UEF/t2 shield boat.png"
+      }
+    ]
+  },
+  "tier3": {
+    "land": [
+      {
+        "name": "T3 Land Factory",
+        "massCost": 3150,
+        "energyCost": 28350,
+        "hp": 22000,
+        "img": "/assets/images/UEF/t3 land factory.png"
+      },
+      {
+        "name": "T3 Quantum Gate",
+        "massCost": 3000,
+        "energyCost": 30000,
+        "hp": 10000,
+        "img": "/assets/images/UEF/t3 quantum gate.png"
+      },
+      {
+        "name": "T3 Mass Extractor",
+        "massCost": 4600,
+        "energyCost": 31625,
+        "hp": 8400,
+        "img": "/assets/images/UEF/t3 mex.png"
+      },
+      {
+        "name": "T3 Power Generator",
+        "massCost": 3240,
+        "energyCost": 57600,
+        "hp": 9720,
+        "img": "/assets/images/UEF/t3 gen.png"
+      },
+      {
+        "name": "T3 Mass Fabricator",
+        "massCost": 3000,
+        "energyCost": 65000,
+        "hp": 6000,
+        "img": "/assets/images/UEF/t3 fab.png"
+      },
+      {
+        "name": "T3 Heavy Art. Installation: Duke",
+        "massCost": 90000,
+        "energyCost": 900000,
+        "hp": 15000,
+        "img": "/assets/images/UEF/t3 arti.png"
+      },
+      {
+        "name": "T3 Strategic Missile Launcher: Stonager",
+        "massCost": 15000,
+        "energyCost": 210000,
+        "hp": 4000,
+        "img": "/assets/images/UEF/t3 sml.png"
+      },
+      {
+        "name": "T3 Heavy Point Defence: Ravager",
+        "massCost": 1800,
+        "energyCost": 16000,
+        "hp": 7500,
+        "img": "/assets/images/UEF/t3 pd.png"
+      },
+      {
+        "name": "T3 AA SAM: Flayer",
+        "massCost": 1400,
+        "energyCost": 12000,
+        "hp": 10500,
+        "img": "/assets/images/UEF/t3 aa.png"
+      },
+      {
+        "name": "T3 SMD: Nuke Eliminator",
+        "massCost": 7500,
+        "energyCost": 105000,
+        "hp": 3800,
+        "img": "/assets/images/UEF/t3 smd.png"
+      },
+      {
+        "name": "T3 Heavy Shield Generator",
+        "massCost": 3000,
+        "energyCost": 50000,
+        "hp": "500/15k",
+        "img": "/assets/images/UEF/t3 shield.png"
+      },
+      {
+        "name": "T3 Omni Sensor Array",
+        "massCost": 2400,
+        "energyCost": 30000,
+        "hp": 100,
+        "img": "/assets/images/UEF/t3 radar.png"
+      },
+      {
+        "name": "T3 Engineering Station: Kennel",
+        "massCost": 500,
+        "energyCost": 2500,
+        "hp": 3000,
+        "img": "/assets/images/UEF/t3 kennel.png"
+      },
+      {
+        "name": "T3 Engineer",
+        "massCost": 490,
+        "energyCost": 3150,
+        "hp": 1500,
+        "img": "/assets/images/UEF/t3 engie.png"
+      },
+      {
+        "name": "T3 Heavy Assault Bot: Titan",
+        "massCost": 480,
+        "energyCost": 5400,
+        "hp": "1.2k/2.2k",
+        "img": "/assets/images/UEF/t3 titan.png"
+      },
+      {
+        "name": "T3 Heavy Assault Bot: Percival",
+        "massCost": 1280,
+        "energyCost": 14000,
+        "hp": 9300,
+        "img": "/assets/images/UEF/t3 percival.png"
+      },
+      {
+        "name": "T3 Mobile Heavy Artillery: Demolisher",
+        "massCost": 800,
+        "energyCost": 8000,
+        "hp": 950,
+        "img": "/assets/images/UEF/t3 mha.png"
+      },
+      {
+        "name": "T3 Mobile Missile Platform: Spearhead",
+        "massCost": 400,
+        "energyCost": 3000,
+        "hp": 1700,
+        "img": "/assets/images/UEF/t3 mml.png"
+      },
+      {
+        "name": "T3 Support Armored Command Unit",
+        "massCost": 9600,
+        "energyCost": 114000,
+        "hp": 32000,
+        "img": "/assets/images/UEF/t3 sacu.png"
+      }
+    ],
+    "air": [
+      {
+        "name": "T3 Air Factory",
+        "massCost": 2520,
+        "energyCost": 46200,
+        "hp": 22000,
+        "img": "/assets/images/UEF/t3 air factory.png"
+      },
+      {
+        "name": "T3 Spy Plane: SR90 Blackbird",
+        "massCost": 195,
+        "energyCost": 5000,
+        "hp": 1150,
+        "img": "/assets/images/UEF/t3 spy plane.png"
+      },
+      {
+        "name": "T3 Air Superiority Fighter: Wasp",
+        "massCost": 400,
+        "energyCost": 20000,
+        "hp": 2600,
+        "img": "/assets/images/UEF/t3 fighter.png"
+      },
+      {
+        "name": "T3 Strategic Bomber: Ambassador",
+        "massCost": 2100,
+        "energyCost": 70000,
+        "hp": 4000,
+        "img": "/assets/images/UEF/t3 bomber.png"
+      },
+      {
+        "name": "T3 Heavy Gunship: Broadsword",
+        "massCost": 1680,
+        "energyCost": 35000,
+        "hp": 6000,
+        "img": "/assets/images/UEF/t3 gunship.png"
+      },
+      {
+        "name": "T3 Transport: Continental",
+        "massCost": 2000,
+        "energyCost": 28150,
+        "hp": 4500,
+        "img": "/assets/images/UEF/t3 air transport.png"
+      }
+    ],
+    "naval": [
+      {
+        "name": "T3 Naval Factory",
+        "massCost": 5400,
+        "energyCost": 23400,
+        "hp": 40000,
+        "img": "/assets/images/UEF/t3 naval factory.png"
+      },
+      {
+        "name": "T3 Sonar Platform",
+        "massCost": 400,
+        "energyCost": 12000,
+        "hp": 2000,
+        "img": "/assets/images/UEF/t3 sonar.png"
+      },
+      {
+        "name": "T3 Strategic Missile Submarine: Ace",
+        "massCost": 10000,
+        "energyCost": 60000,
+        "hp": 4000,
+        "img": "/assets/images/UEF/t3 submarine.png"
+      },
+      {
+        "name": "T3 Battleship: Summit Class",
+        "massCost": 11250,
+        "energyCost": 75000,
+        "hp": 51000,
+        "img": "/assets/images/UEF/t3 battleship.png"
+      },
+      {
+        "name": "T3 Battlecruiser: Neptune Class",
+        "massCost": 7500,
+        "energyCost": 65000,
+        "hp": 25000,
+        "img": "/assets/images/UEF/t3 battlecruiser.png"
+      }
+    ]
+  },
+  "experimental": {
+    "land": [
+      {
+        "name": "Exp. Artillery: Mavor",
+        "massCost": "299.7k",
+        "energyCost": "5994k",
+        "hp": 8000,
+        "img": "/assets/images/UEF/mavor.png"
+      },
+      {
+        "name": "Exp. Satellite System: Novax Center",
+        "massCost": 37200,
+        "energyCost": 604500,
+        "hp": 9000,
+        "img": "/assets/images/UEF/novax.png"
+      },
+      {
+        "name": "Exp. Mobile Factory: Fatboy",
+        "massCost": 24600,
+        "energyCost": 307500,
+        "hp": "12.5k/20k",
+        "img": "/assets/images/UEF/fatboy.png"
+      }
+    ],
+    "air": [],
+    "naval": [
+      {
+        "name": "Exp. Aircraft Carrier: Atlantis",
+        "massCost": 12000,
+        "energyCost": 150000,
+        "hp": 40000,
+        "img": "/assets/images/UEF/atlantis.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+.tier_divider {
+  font-family: Xolonium;
+  font-size: 2.5rem;
+  border-bottom: 0.2rem solid #303030;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.tier_types {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 1rem 0 1rem;
+}
+
+.wrapper_big {
+  flex-grow: 4;
+  flex-shrink: 1;
+}
+
+.wrapper_small {
+  flex-grow: 1;
+  flex-shrink: 4;
+}

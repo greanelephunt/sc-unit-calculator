@@ -1,0 +1,32 @@
+.cart_item
+{
+    font-family: Xolonium;
+    font-size: 1.25rem;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.cart_item:hover
+{
+    cursor: pointer;
+    color: #bf0000;
+
+}
+
+.cart_item div
+{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.cart_item div div
+{
+    margin-right: 0.5rem;
+}
+
+.cart_item div img
+{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.2rem;
+}
