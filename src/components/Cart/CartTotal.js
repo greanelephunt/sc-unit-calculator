@@ -4,7 +4,7 @@ import classes from "./CartTotal.module.css";
 import massIcon from "../../images/ui/mass.png";
 import energyIcon from "../../images/ui/energy.png";
 
-const CartTotal = (props) => {
+const CartTotal = ({totalMass, totalEnergy}) => {
   return (
     <div className={classes.cart_total}>
       <div>
@@ -12,11 +12,11 @@ const CartTotal = (props) => {
       </div>
       <div>
         <img src={massIcon} alt="mass cost"/>
-        <a>{props.totalMass}</a>
+        <a>{totalMass}</a>
       </div>
       <div>
         <img src={energyIcon} alt="energy cost"/>
-        <a>{props.totalEnergy}</a>
+        <a>{totalEnergy}</a>
       </div>
     </div>
   );

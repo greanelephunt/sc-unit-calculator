@@ -678,8 +678,8 @@
     "land": [
       {
         "name": "Exp. Artillery: Scathis",
-        "massCost": "299.7k",
-        "energyCost": "5994k",
+        "massCost": 299700,
+        "energyCost": 5994000,
         "hp": 17500,
         "img": "/assets/images/cybran/scathis.png"
       },

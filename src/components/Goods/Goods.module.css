@@ -1,11 +1,11 @@
 .goods {
+  overflow-y: scroll;
   max-height: 100vh;
   flex: 15 15 600px;
-  overflow-y: scroll;
 }
 
 @media screen and (max-width: 750px) {
-  .goods {
-    height: 70vh;
+  .content_wrapper {
+    height: 65vh;
   }
 }

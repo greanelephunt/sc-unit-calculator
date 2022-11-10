@@ -10,14 +10,14 @@ import cybran_hover from "../../images/ui/cybran-hover.png";
 import uef from "../../images/ui/uef.png";
 import uef_hover from "../../images/ui/uef-hover.png";
 
-const Factions = (props) => {
+const Factions = () => {
 
   return (
     <div className={classes.factions}>
-      <FactionButton img={aeon} imgHover={aeon_hover} alt="Aeon"/>
-      <FactionButton img={seraphim} imgHover={seraphim_hover} alt="Seraphim"/>
-      <FactionButton img={cybran} imgHover={cybran_hover} onClick={props.onFactionChange.bind(this, "cybran")} alt="Cybran"/>
-      <FactionButton img={uef} imgHover={uef_hover}  onClick={props.onFactionChange.bind(this, "uef")} alt="UEF"/>
+      <FactionButton img={aeon} imgHover={aeon_hover} alt="Aeon" faction="aeon"/>
+      <FactionButton img={seraphim} imgHover={seraphim_hover} alt="Seraphim" faction="seraphim"/>
+      <FactionButton img={cybran} imgHover={cybran_hover} alt="Cybran" faction="cybran"/>
+      <FactionButton img={uef} imgHover={uef_hover} alt="UEF" faction="uef"/>
     </div>
   );
 };

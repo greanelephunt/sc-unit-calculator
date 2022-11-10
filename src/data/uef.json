@@ -650,8 +650,8 @@
     "land": [
       {
         "name": "Exp. Artillery: Mavor",
-        "massCost": "299.7k",
-        "energyCost": "5994k",
+        "massCost": 299700,
+        "energyCost": 5994000,
         "hp": 8000,
         "img": "/assets/images/UEF/mavor.png"
       },

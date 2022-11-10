@@ -1,10 +1,10 @@
 import UnitCard from "./UnitCard";
 import classes from "./Type.module.css";
 
-const Type = (props) => {
+const Type = ({className, units}) => {
   return (
-    <div className={`${classes.type} ${props.className}`} >
-      {props.units.map((unit) => {
+    <div className={`${classes.type} ${className}`} >
+      {units.map((unit) => {
         return (
           <UnitCard
             name={unit.name}
@@ -12,7 +12,6 @@ const Type = (props) => {
             massCost={unit.massCost}
             energyCost={unit.energyCost}
             hp={unit.hp}
-            onClick={props.onCardClick}
           />
         );
       })}

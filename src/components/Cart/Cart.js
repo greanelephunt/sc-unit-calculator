@@ -1,23 +1,27 @@
-// import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import CartItem from "./CartItem";
 import CartTotal from "./CartTotal";
 import classes from "./Cart.module.css";
 
-const Cart = (props) => {
+
+const Cart = () => {
+  const cart = useSelector(store => store.cart.cart);
+  const totalMass = useSelector(store => store.cart.totalMass);
+  const totalEnergy = useSelector(store => store.cart.totalEnergy);
+
   return (
     <div className={classes.cart}>
-      {props.cartItems.cart.map((item) => {
+      {cart.map((item) => {
         return (
           <CartItem
             name={item.name}
             amount={item.amount}
             massCost={item.massCost * item.amount}
             energyCost={item.energyCost * item.amount}
-            onClick={props.onCartItemClick}
           />
         );
       })}
-      <CartTotal totalMass={props.cartItems.totalMassCost} totalEnergy={props.cartItems.totalEnergyCost} />
+      <CartTotal totalMass={totalMass} totalEnergy={totalEnergy} />
     </div>
   );
 };

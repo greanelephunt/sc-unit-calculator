@@ -1,24 +1,32 @@
-// import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../store/cart-slice";
+
 import classes from "./CartItem.module.css";
 
 import massIcon from "../../images/ui/mass.png";
 import energyIcon from "../../images/ui/energy.png";
 
-const CartItem = (props) => {
+const CartItem = ({name, amount, massCost, energyCost}) => {
+  const dispatch = useDispatch();
+
+  const cartItemClickHandler = () => {
+    dispatch(cartActions.removeItem(name));
+  }
+
   return (
-    <div className={classes.cart_item} onClick={props.onClick.bind(null, props.name)}>
+    <div className={classes.cart_item} onClick={cartItemClickHandler}>
       <div>
-        <div>{props.name}</div>
+        <div>{name}</div>
         <div>x</div>
-        <div>{props.amount}</div>
+        <div>{amount}</div>
       </div>
       <div>
         <img src={massIcon} alt="mass cost"/>
-        <a>{props.massCost}</a>
+        <a>{massCost}</a>
       </div>
       <div>
         <img src={energyIcon} alt="energy cost"/>
-        <a>{props.energyCost}</a>
+        <a>{energyCost}</a>
       </div>
     </div>
   );
